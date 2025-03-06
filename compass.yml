@@ -1,0 +1,28 @@
+name: fork-terraform-aws-vpc-peering
+id: ari:cloud:compass:83673fa7-fd28-4f4a-9738-f584064570a7:component/db43f86d-85fe-42e1-954d-457f5a4082b8/3f2117c3-4c55-405f-9c9d-3b1801b813cb
+description: Terraform module to create a peering connection between two VPCs in the same AWS account.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/verygood-ops/fork-terraform-aws-vpc-peering
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Logging
+    type: text
+    value: null
+  - name: Metrics
+    type: text
+    value: null
+  - name: Service Name
+    type: text
+    value: null
+  - name: Tracing
+    type: text
+    value: null
